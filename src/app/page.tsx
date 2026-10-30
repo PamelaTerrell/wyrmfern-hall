@@ -1,5 +1,7 @@
 import SecretPassage from "../components/SecretPassage";
 
+export { homeMetadata as metadata } from "./seo";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#062b20] text-[#f4e9cb]">
@@ -26,12 +28,11 @@ export default function Home() {
 
       <section className="mx-auto max-w-2xl px-6 py-10 text-center sm:py-14">
         <h2 className="font-serif text-2xl sm:text-3xl">
-          An adventure in learning is taking shape.
+          Magical learning adventures for curious kids.
         </h2>
 
         <p className="mt-4 text-base leading-7 text-[#d3dfd2] sm:text-lg">
-          Reading, mathematics, science, and creative discoveries
-          for curious young minds.
+          Wyrmfern Hall is an upcoming online learning world for children, with reading, math, science, and creative activities woven into original magical adventures.
         </p>
 
         <p className="mt-4 text-sm leading-6 text-[#c5d0c3]">

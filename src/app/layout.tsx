@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Wyrmfern Hall | Coming Soon",
-  description:
-    "A magical learning world is taking shape. Reading, mathematics, science, and creative adventures for curious young minds.",
-};
+import { siteMetadata } from "./seo";
+
+export const metadata: Metadata = siteMetadata;
 
 export default function RootLayout({
   children,
