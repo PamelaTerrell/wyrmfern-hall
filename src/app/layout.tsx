@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
-
+import { Analytics } from "@vercel/analytics/next";
 import { siteMetadata } from "./seo";
+import "./globals.css";
 
 export const metadata: Metadata = siteMetadata;
 
@@ -12,7 +12,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="m-0 antialiased">{children}</body>
+      <body className="m-0 antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
