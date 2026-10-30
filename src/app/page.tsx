@@ -1,3 +1,5 @@
+import SecretPassage from "../components/SecretPassage";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#062b20] text-[#f4e9cb]">
@@ -37,6 +39,7 @@ export default function Home() {
         </p>
       </section>
 
+      <SecretPassage />
       <footer className="border-t border-[#d4b56a]/20 px-6 py-5 text-center text-xs text-[#c5d0c3]">
         © 2026 Wyrmfern Hall
       </footer>
